@@ -1,0 +1,175 @@
+.backwall{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+
+
+.Left{
+    float: left;
+    margin-top: 7%;
+    width:50%;
+    background-color:white;
+    height:27%;
+    margin-left: 10%;
+}
+
+.Right{
+    margin-top: 7%;
+    float: left;
+    margin-left: 3%;
+    background-color:white;
+    height:28%;
+    width: 26%;
+
+}
+.product_line{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 84%;
+    height:13%;
+    float: left;
+    margin-left:2%;
+
+
+}
+
+.big_bootom {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 11%;
+    float: left;
+    height:16%;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding:1%;
+    background: cornflowerblue;
+    border: none;
+
+}
+
+
+.line{
+    width:100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.first_block{
+    float:left;
+    margin-left: 2px;
+}
+
+.x{
+    width: 3%;
+    height:11%;
+    float:right;
+    margin-right: 2%;
+    background-color:red;
+    color: white;
+    border:none;
+}
+
+.bought{
+    float:right;
+    margin-right: 1%;
+}
+
+.plus{
+    float:right;
+    margin-right: 31%;
+    text-align:center;
+    background-color:red;
+    display:inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid green;
+    color:white;
+    margin-bottom: 1%;
+}
+
+.window{
+    float:right;
+    margin-right: 1%;
+    text-align:center;
+    background-color:ghostwhite;
+    display:inline-block;
+    border-radius: 3%;
+    border:none;
+    border: 1px solid green;
+}
+
+.minus{
+    float:right;
+    margin-right: 1%;
+    margin-left:2%;
+    text-align:center;
+    background-color:green;
+    display:inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid green;
+    color:white;
+
+}
+
+.main_line{
+    display: inline;
+    width: 100%;
+}
+
+.Circle{
+
+    float:right;
+    text-align:center;
+    background-color:orange;
+    display:inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid orange;
+    border-radius: 50%;
+    color:black;
+    margin-left:5px;
+
+
+}
+.com{
+    background-color:#dcdcdc;
+    margin:3%;
+}
+
+tab{
+    border-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
