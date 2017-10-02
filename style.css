@@ -1,33 +1,41 @@
 .backwall{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: whitesmoke;
+    box-sizing: border-box;
 }
 
 
 
 .Left{
+    box-sizing: border-box;
     float: left;
     margin-top: 7%;
     width:50%;
     background-color:white;
     height:27%;
     margin-left: 10%;
+    min-width: 430px;
+    min-height: 200px;
 }
 
 .Right{
+    box-sizing: border-box;
     margin-top: 7%;
     float: left;
     margin-left: 3%;
     background-color:white;
     height:28%;
     width: 26%;
+    min-height: 190px;
+    min-width: 150px;
 
 }
 .product_line{
+    min-width: 30px;
     margin-bottom: 2%;
     margin-top: 2%;
     width: 84%;
@@ -39,6 +47,9 @@
 }
 
 .big_bootom {
+    box-sizing: border-box;
+    min-width: 55px;
+    min-height: 30px;
     margin-bottom: 2%;
     margin-top: 2%;
     width: 11%;
@@ -50,6 +61,7 @@
     padding:1%;
     background: cornflowerblue;
     border: none;
+
 
 }
 
@@ -66,6 +78,7 @@
 }
 
 .x{
+    box-sizing: border-box;
     width: 3%;
     height:11%;
     float:right;
@@ -76,11 +89,13 @@
 }
 
 .bought{
+    box-sizing: border-box;
     float:right;
     margin-right: 1%;
 }
 
 .plus{
+    box-sizing: border-box;
     float:right;
     margin-right: 31%;
     text-align:center;
@@ -95,6 +110,7 @@
 }
 
 .window{
+    box-sizing: border-box;
     float:right;
     margin-right: 1%;
     text-align:center;
@@ -106,6 +122,7 @@
 }
 
 .minus{
+    box-sizing: border-box;
     float:right;
     margin-right: 1%;
     margin-left:2%;
@@ -123,6 +140,7 @@
 .main_line{
     display: inline;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .Circle{
@@ -149,12 +167,203 @@ tab{
     border-color: none;
 }
 
+.buy_list{
+    position:fixed;
+    margin: 5%;
+    bottom:-220px;
+    background-color:darkviolet;
+    width:	200px;
+    height:	200px;
+    border-radius:	20px;
 
 
 
+}
+
+.buy_list:hover{
+    transition:	all	8s	ease;
+    background-color:blue;
+    transform:translateY(-135px);
+}
+
+.first_h{
+    color:white;
+    text-align: center;
+    font-family: "Comic Sans MSk";
+    font-size: larger;
+
+}
+
+.second_h{
+    color:white;
+    text-align: center;
+    font-family:"Calibri Light";
+    bottom: -3%;
+}
+
+.third_h{
+    color:white;
+    text-align: center;
+    font-family:Arial;
+    font-size: larger;
+}
+
+.c1{
+    box-sizing: border-box;
+}
+
+.minus::after{
+    background-color:darkviolet;
+    width: 90px;
+    height:25px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    text-align: center;
+    content: "Tooltip";
+    margin-top: -30px;
+    align-content: center;
+    margin-left: -53px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.minus:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
+
+
+.big_bootom::after{
+    background-color:darkviolet;
+    width: 90px;
+    height:25px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    text-align: center;
+    content: "Tooltip";
+    margin-top: -30px;
+    align-content: center;
+    margin-left: -53px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.big_bootom:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
 
 
 
+.plus::after{
+    background-color:darkviolet;
+    width: 90px;
+    height:25px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    text-align: center;
+    content: "Tooltip";
+    margin-top: -30px;
+    align-content: center;
+    margin-left: -53px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.plus:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
+
+
+
+.window::after{
+    background-color:darkviolet;
+    width: 90px;
+    height:25px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    text-align: center;
+    content: "Tooltip";
+    margin-top: -30px;
+    align-content: center;
+    margin-left: -53px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.window:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
+
+
+
+.x::after{
+    background-color:darkviolet;
+    width: 90px;
+    height:25px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    text-align: center;
+    content: "Tooltip";
+    margin-top: -30px;
+    align-content: center;
+    margin-left: -53px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.x:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
+
+
+
+.bought::after{
+    background-color:darkviolet;
+    width: 90px;
+    height:25px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    text-align: center;
+    content: "Tooltip";
+    margin-top: -30px;
+    align-content: center;
+    margin-left: -53px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.bought:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
 
 
 
